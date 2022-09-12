@@ -1,0 +1,16 @@
+{
+    "mapa": 101,
+    "name":"Ascent",
+    "lado":[
+        {  "side": 1,
+           "name":"Defenesa A",
+           "description": "Oscuro-Mercado",
+           "carga": 1,
+           "potencia": "Maxima",
+           "pos": "img/oscuro1.jpg",
+           "ref": "img/oscuro2.jpg"
+        }
+    ]
+
+
+}
