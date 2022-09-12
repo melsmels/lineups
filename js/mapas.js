@@ -3,14 +3,13 @@ let mapas = [];
 
 
 const fetchApio = async () =>{
-    const ruta = "../mapas/101.json"
+    const ruta = "https://github.com/melsmels/lineups/blob/main/mapas/${ls}.json"
     await fetch(ruta)
     .then( response => response.json())
     .then(data => mapas = data)
 
 
 }
-const data = require("../mapas/101.json")
 
-console.log(data);
+console.log(mapas);
 fetchApio();
